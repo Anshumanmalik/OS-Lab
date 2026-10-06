@@ -1,0 +1,41 @@
+
+===== OS Resource Manager =====
+ 1. CPU scheduling simulator
+ 2. Page replacement simulator
+ 3. Banker's algorithm (deadlock avoidance)
+ 4. Disk scheduling simulator
+ 5. Live system processes via Bash + schedule them
+ 6. Run full comparison (tables + charts)
+ 0. Exit
+Choose: 
+Algorithm                Avg Waiting  Avg Turnaround
+------------------------------------------------------
+FCFS                            8.75           15.25
+SJF                             7.75           14.25
+Round Robin (q=2)              12.75           19.25
+Priority                        7.75           14.25
+[chart saved] /home/hatch/workspace/os-capstone/output/scheduling_comparison.png
+
+Algorithm    Page faults
+--------------------------
+FIFO                  10
+LRU                    9
+Optimal                7
+[chart saved] /home/hatch/workspace/os-capstone/output/paging_comparison.png
+
+Algorithm     Head movement
+-----------------------------
+FCFS                    640
+SSTF                    236
+SCAN                    331
+[chart saved] /home/hatch/workspace/os-capstone/output/disk_comparison.png
+
+===== OS Resource Manager =====
+ 1. CPU scheduling simulator
+ 2. Page replacement simulator
+ 3. Banker's algorithm (deadlock avoidance)
+ 4. Disk scheduling simulator
+ 5. Live system processes via Bash + schedule them
+ 6. Run full comparison (tables + charts)
+ 0. Exit
+Choose: Bye!
